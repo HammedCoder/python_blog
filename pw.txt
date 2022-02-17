@@ -1,0 +1,11 @@
+django Admin pass
+
+username=admin
+pw="ma123lik432"
+
+
+user=testUser
+pw = queenTest123
+
+twins
+tayelolu12
