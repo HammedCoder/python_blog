@@ -1,0 +1,28 @@
+
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+            <div class="container">
+                <a href="{% url 'blog-home' %}" class="navbar-brand mr-4">Django Blog</a>
+                <button class="navbar-toggler" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+                </button>   
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <div class="navbar-nav mr-auto">
+                        <a href="{% url 'blog-home' %}" class="nav-item nav-link">Home</a>
+                        <a href="{% url 'blog-about' %}" class="nav-item nav-link">About</a>
+                    </div>
+                    <!-- Navbar Right side -->
+                    <div class="navbar-nav nav-link-right">
+                        {% if user.is_authenticated %}
+                            <a href="{% url 'profile' %}" class="nav-item nav-link nav-link-right" >Profile</a>
+                            <a href="{% url 'logout' %}" class="nav-item nav-link nav-link-right" >Logout</a>
+                        {% else %}
+                            <a href="{% url 'login' %}" class="nav-item nav-link nav-link-right" >Login</a>
+                            <a href="{% url 'register' %}" class="nav-item nav-link nav-link-right">Register</a>
+                        {% endif %}
+                    </div> 
+                    
+                </div>
+            </div>        
+        </nav> 
+    </header>
