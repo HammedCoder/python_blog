@@ -1,0 +1,48 @@
+<xml version="1.0" encoding="UTF-8"?>
+<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+	<CORSRule>
+		<AllowedOrigin>*</AllowedOrigin>
+		<AllowedMethod>PUT</AllowedMethod>
+		<AllowedMethod>POST</AllowedMethod>
+		<AllowedMethod>GET</AllowedMethod>
+		<AllowedHeader>*</AllowedHeader>
+	</CORSRule>
+</CORSConfiguration>
+
+
+setup bash profile
+subl ~/.bash_profile
+
+add these configuration to the bash
+export AWS_ACCESS_KEY_ID= ""
+export AWS_SECRET_ACCESS_KEY=""
+export AWS_STORAGE_BUCKET_NAME="bucket name"
+
+install boto3
+pip install boto3
+
+install django-storage
+pip install django-storages
+
+add stoarges to the app in the settings.py
+'storages'
+
+add this to the settings.py
+AWS_ACCESS_KEY_ID= os.environ.get("EMAIL_USER")
+AWS_SECRET_ACCESS_KEY=""
+AWS_STORAGE_BUCKET_NAME= 
+
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT
+
+"django storage documentation"
+
+
+Enabling Python Virtual environment
+
+pip install virtualenv
+
+virtualenv (name)
+
+name\scripts\activate - on windows
+source name/bin/activate - om mac

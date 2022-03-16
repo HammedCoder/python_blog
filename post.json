@@ -1,0 +1,47 @@
+[
+    {
+        "title": "My First Update Post",
+        "content": "HTML tags normally come in pairs like <p> and </p> The first tag in a pair is the star tag, the second tag is the end tag The end tag is written like the start tag, \n\r\n\r but with a forward slash inserted before the tag name",
+        "user_id": 1
+    },
+    {
+        "title": "JavaScript Can Change HTML Content",
+        "content": "One of many JavaScript HTML methods is getElementById().This example uses the method to  find an HTML element (with id='demo') and changes the element content (innerHTML) to 'Hello JavaScript",
+        "user_id": 1
+    },
+    {
+        "title": "SQL Tutorial",
+        "content": "SQL is a standard language for storing, manipulating and retrieving data in databases.Our tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, postgres, and other database systems.",
+        "user_id": 1
+    },
+    {
+        "title" : "PHP- Hypertext Pre-Processor",
+        "content":"PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP",
+        "user_id": 2
+    },
+    {
+        "title": "About Version Control",
+        "content": "What is “version control”, and why should you care? Version control is a system that ecords changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer",
+        "user_id": 2
+    },
+    {
+        "title" : "PHP- Hypertext Pre-Processor",
+        "content":"PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP",
+        "user_id": 2
+    },
+    {
+        "title": "Cascading StyleSheet",
+        "content": "What is “version control”, and why should you care? Version control is a system that ecords changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer",
+        "user_id": 2
+    },
+    {
+        "title": "Sass",
+        "content": "A pre Processed version of CSS”, and why should you care? Version control is a system that ecords changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer",
+        "user_id": 2
+    },
+    {
+        "title": "Oracle Database System",
+        "content": "Oracle is the leading Relational Database Model, and why should you care? Version control is a system that ecords changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer",
+        "user_id": 2
+    }
+]
